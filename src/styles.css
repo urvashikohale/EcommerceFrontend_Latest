@@ -1,0 +1,44 @@
+.btn,
+.jumbotron,
+.nav :hover {
+
+  border-radius: 0px;
+}
+
+
+
+body {
+
+position: relative;
+min-height: 100vh;
+padding-bottom: 130px;
+background-color: #F1F3F6
+}
+
+
+
+footer{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+  background-color:  #0D6EFD;
+}
+
+.parent {
+  margin: 1rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  text-align: center;
+}
+
+.child1{
+  margin-left: 0px;
+  text-align: start;
+  justify-content: flex-start;
+}
+
+.child2{
+  justify-content: flex-end;
+}
